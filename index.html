@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Hadi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts for better Urdu support -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans Arabic', sans-serif;
+    }
+    .urdu-text {
+      font-family: 'Noto Nastaliq Urdu', serif;
+      line-height: 2.2; /* Nastaliq needs more height */
+    }
+    /* Custom scrollbar for cleaner look - Green Theme */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #052e16; /* green-950 */
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #15803d; /* green-700 */
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #166534; /* green-800 */
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "remark-gfm": "https://aistudiocdn.com/remark-gfm@^4.0.1"
+  }
+}
+</script>
+</head>
+<body class="bg-green-950 text-green-50 h-screen overflow-hidden">
+  <div id="root" class="h-full"></div>
+</body>
+</html>

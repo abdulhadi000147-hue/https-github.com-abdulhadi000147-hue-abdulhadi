@@ -1,0 +1,8 @@
+{
+  "name": "Abdul Hadi",
+  "description": "An AI-powered homework assistant for students, providing step-by-step solutions and explanations in Urdu across various subjects.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
